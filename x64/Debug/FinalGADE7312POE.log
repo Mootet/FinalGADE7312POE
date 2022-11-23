@@ -1,2 +1,4 @@
 ﻿  Main.cpp
+C:\Users\cw924\OneDrive\Desktop\FinalGADE7312POE\Main.cpp(37,34): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
+C:\Users\cw924\OneDrive\Desktop\FinalGADE7312POE\Main.cpp(37,34): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
   FinalGADE7312POE.vcxproj -> C:\Users\cw924\OneDrive\Desktop\FinalGADE7312POE\x64\Debug\FinalGADE7312POE.exe
