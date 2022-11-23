@@ -75,7 +75,7 @@ int main()
 
 	GLuint uniID = glGetUniformLocation(shaderProgram.ID, "scale");
 
-	Texture chessBoard("istockphoto-922180412-612x612.jpg", GL_TEXTURE_2D, GL_TEXTURE0, GL_RGBA, GL_UNSIGNED_BYTE);
+	Texture chessBoard("Chessnut.png", GL_TEXTURE_2D, GL_TEXTURE0, GL_RGBA, GL_UNSIGNED_BYTE);
 	chessBoard.texUnit(shaderProgram, "tex0", 0);
 
 	while (!glfwWindowShouldClose(window))

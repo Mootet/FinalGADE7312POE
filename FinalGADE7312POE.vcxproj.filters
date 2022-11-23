@@ -69,7 +69,10 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="..\..\..\Downloads\istockphoto-922180412-612x612.jpg">
+    <Image Include="..\..\..\Downloads\Chessnut.jpg">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="Chessnut.png">
       <Filter>Resource Files\Textures</Filter>
     </Image>
   </ItemGroup>
