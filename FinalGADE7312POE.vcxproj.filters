@@ -84,10 +84,10 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="..\..\..\Downloads\Chessnut.jpg">
+    <Image Include="Chessnut.png">
       <Filter>Resource Files\Textures</Filter>
     </Image>
-    <Image Include="Chessnut.png">
+    <Image Include="..\..\..\Downloads\CHESSMAT.png">
       <Filter>Resource Files\Textures</Filter>
     </Image>
   </ItemGroup>
