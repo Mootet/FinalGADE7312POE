@@ -1,2 +1,4 @@
 ﻿  Main.cpp
+glfw3.lib(monitor.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(monitor.obj)' or at 'D:\VEGA\3rd Year\Sem 2\GADE7312\2022\FinalGADE7312POE\x64\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(win32_joystick.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_joystick.obj)' or at 'D:\VEGA\3rd Year\Sem 2\GADE7312\2022\FinalGADE7312POE\x64\Debug\glfw.pdb'; linking object as if no debug info
   FinalGADE7312POE.vcxproj -> D:\VEGA\3rd Year\Sem 2\GADE7312\2022\FinalGADE7312POE\x64\Debug\FinalGADE7312POE.exe
