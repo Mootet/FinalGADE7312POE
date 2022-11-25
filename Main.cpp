@@ -108,6 +108,7 @@ int main()
 	// Sets the model data and textures
 	 Model model("Models/table2/table.gltf");
 	 Model chair("Models/chair/scene.gltf");
+	 Model chair2("Models/chair/scene.gltf");
 
 	 double prevTime = 0.0;
 	 double crntTime = 0.0;
@@ -218,6 +219,7 @@ int main()
 		// Draw a model
 		model.Draw(shaderProgram, camera);
 		chair.Draw(shaderProgram, camera);
+		chair2.Draw(shaderProgram, camera);
 		//model = glm::rotate(model, 180, glm::vec3(0,1,0)); // where x, y, z is axis of rotation (e.g. 0 1 0)
 
 		// Since the cubemap will always have a depth of 1.0, we need that equal sign so it doesn't get discarded
