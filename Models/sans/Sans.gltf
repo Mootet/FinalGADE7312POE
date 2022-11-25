@@ -1,0 +1,173 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.3.32",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                2
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Object_2",
+            "rotation" : [
+                0.027957545593380928,
+                -0.7387092113494873,
+                -0.05593487620353699,
+                0.6711173057556152
+            ]
+        },
+        {
+            "children" : [
+                0
+            ],
+            "name" : "craneo.OBJ.cleaner.gles"
+        },
+        {
+            "children" : [
+                1
+            ],
+            "name" : "Sketchfab_model",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "name" : "defaultMat",
+            "normalTexture" : {
+                "index" : 0,
+                "scale" : 0.8500000238418579
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.6000000238418579
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Object_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "defaultMat_normal",
+            "uri" : "defaultMat_normal.jpg"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "defaultMat_baseColor",
+            "uri" : "defaultMat_baseColor.jpg"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 17407,
+            "max" : [
+                0.668556272983551,
+                0.8799268007278442,
+                0.9919244050979614
+            ],
+            "min" : [
+                -0.6679636240005493,
+                -0.9085731506347656,
+                -1.005160927772522
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 17407,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 17407,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 93048,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 208884,
+            "byteOffset" : 0,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 208884,
+            "byteOffset" : 208884,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 139256,
+            "byteOffset" : 417768,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 186096,
+            "byteOffset" : 557024,
+            "target" : 34963
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 743120,
+            "uri" : "Sans.bin"
+        }
+    ]
+}

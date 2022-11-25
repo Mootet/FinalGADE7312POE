@@ -1,5 +1,5 @@
 #include"Model.h"
-
+#include<glm/glm.hpp>
 
 const unsigned int width = 1920;
 const unsigned int height = 1080;
@@ -42,6 +42,7 @@ int main()
 
 	// Generates Shader object using shaders default.vert and default.frag
 	Shader shaderProgram("default.vert", "default.frag");
+	Shader shaderProgram("default.vert", "default.frag");
 
 	// Take care of all the light related things
 	glm::vec4 lightColor = glm::vec4(1.0f, 1.0f, 1.0f, 1.0f);
@@ -65,9 +66,9 @@ int main()
 
 
 	// Original code from the tutorial
-	 Model model("Models/skull/scene.gltf");
+	 Model model("Models/table2/table.gltf");
 
-	// Main while loop
+	 // Main while loop
 	while (!glfwWindowShouldClose(window))
 	{
 		// Specify the color of the background
@@ -82,6 +83,8 @@ int main()
 
 		// Draw a model
 		model.Draw(shaderProgram, camera);
+		//model = glm::rotate(model, 180, glm::vec3(0,1,0)); // where x, y, z is axis of rotation (e.g. 0 1 0)
+
 
 		// Swap the back buffer with the front buffer
 		glfwSwapBuffers(window);
