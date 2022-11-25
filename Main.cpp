@@ -42,7 +42,7 @@ int main()
 
 	// Generates Shader object using shaders default.vert and default.frag
 	Shader shaderProgram("default.vert", "default.frag");
-	Shader shaderProgramForChair("chair.vert", "default.frag");
+	Shader shaderProgram("default.vert", "default.frag");
 
 	// Take care of all the light related things
 	glm::vec4 lightColor = glm::vec4(1.0f, 1.0f, 1.0f, 1.0f);
@@ -67,7 +67,6 @@ int main()
 
 	// Original code from the tutorial
 	 Model model("Models/table2/table.gltf");
-	 Model chair("Models/chair/scene.gltf");
 
 	 // Main while loop
 	while (!glfwWindowShouldClose(window))
@@ -84,7 +83,6 @@ int main()
 
 		// Draw a model
 		model.Draw(shaderProgram, camera);
-		chair.Draw(shaderProgramForChair, camera);
 		//model = glm::rotate(model, 180, glm::vec3(0,1,0)); // where x, y, z is axis of rotation (e.g. 0 1 0)
 
 

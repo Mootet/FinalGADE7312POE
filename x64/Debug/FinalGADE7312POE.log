@@ -1,3 +1,2 @@
-﻿  Mesh.cpp
-D:\VEGA\3rd Year\Sem 2\GADE7312\2022\FinalGADE7312POE\Mesh.cpp(80,65): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+﻿  Main.cpp
   FinalGADE7312POE.vcxproj -> D:\VEGA\3rd Year\Sem 2\GADE7312\2022\FinalGADE7312POE\x64\Debug\FinalGADE7312POE.exe
