@@ -1,2 +1,17 @@
-﻿  Main.cpp
-  FinalGADE7312POE.vcxproj -> D:\VEGA\3rd Year\Sem 2\GADE7312\2022\FinalGADE7312POE\x64\Debug\FinalGADE7312POE.exe
+﻿  Camera.cpp
+  EBO.cpp
+  Main.cpp
+  Mesh.cpp
+C:\Users\cw924\OneDrive\Desktop\FinalGADE7312POE\Mesh.cpp(80,65): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  Model.cpp
+C:\Users\cw924\OneDrive\Desktop\FinalGADE7312POE\Model.cpp(262,93): warning C4267: 'argument': conversion from 'size_t' to 'GLuint', possible loss of data
+C:\Users\cw924\OneDrive\Desktop\FinalGADE7312POE\Model.cpp(270,95): warning C4267: 'argument': conversion from 'size_t' to 'GLuint', possible loss of data
+  stb.cpp
+  shaderClass.cpp
+  Texture.cpp
+  VAO.cpp
+C:\Users\cw924\OneDrive\Desktop\FinalGADE7312POE\VAO.cpp(14,63): warning C4244: 'argument': conversion from 'GLsizeiptr' to 'GLsizei', possible loss of data
+  VBO.cpp
+  Generating Code...
+  glad.c
+  FinalGADE7312POE.vcxproj -> C:\Users\cw924\OneDrive\Desktop\FinalGADE7312POE\x64\Debug\FinalGADE7312POE.exe
